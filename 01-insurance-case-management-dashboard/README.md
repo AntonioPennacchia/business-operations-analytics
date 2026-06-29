@@ -72,4 +72,3 @@ A dedicated **info button** opens an overlay panel that dims the dashboard and s
 This helps the user understand metrics, filters, and visualizations without leaving the page.
 
 ![Info Panel](photos/infopanel.png)
-
