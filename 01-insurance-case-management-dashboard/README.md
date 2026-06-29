@@ -27,7 +27,7 @@ It is both a functional operational tool and an example of clean, professional B
 
 The Home Page introduces the case study and lets the user access the two main areas of the report through intuitive navigation buttons.
 
-![Home](photos/homepage.png)
+![Home](homepage.png)
 
 ---
 
@@ -35,7 +35,7 @@ The Home Page introduces the case study and lets the user access the two main ar
 
 The first section focuses on the **weekly backlog trend**, showing how many assignments remained pending at the end of each week, categorized by delay range.
 
-![Backlog](photos/page1.png)
+![Backlog](page1.png)
 
 ### Key insights include:
 - Total backlog per week  
@@ -50,7 +50,7 @@ The first section focuses on the **weekly backlog trend**, showing how many assi
 
 The second section provides a detailed view of **active and completed assignments**, allowing users to analyze workloads at both team and individual level.
 
-![Details](photos/page2.png)
+![Details](page2.png)
 
 ### Features:
 - Assignments per team and per employee  
@@ -71,4 +71,4 @@ Enable fast movement between pages without using the default Power BI interface.
 A dedicated **info button** opens an overlay panel that dims the dashboard and shows contextual explanations.  
 This helps the user understand metrics, filters, and visualizations without leaving the page.
 
-![Info Panel](photos/infopanel.png)
+![Info Panel](infopanel.png)
