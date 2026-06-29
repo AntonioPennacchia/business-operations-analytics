@@ -1,74 +1,60 @@
-# 📊 Insurance Assignments Monitoring Dashboard  
-### Case Study & Interactive Reporting
+# 📦 Business Operations Analytics
 
-This repository contains a Business Intelligence dashboard designed to monitor and analyze insurance case management activities.  
-The solution provides a clear and interactive view of backlog trends, assignment details, team performance, and workload distribution.
+A collection of Business Operations Analytics projects focused on improving operational performance, process efficiency, workload management, and decision support through data.
 
-The dashboard is available in both Power BI (.pbix) and Excel formats and includes interactive navigation elements and an information panel that enhances user experience.
+This repository contains real-world inspired case studies built with Power BI, SQL, Excel and other analytics tools to demonstrate how data can support operational decision-making.
 
----
+The projects cover topics such as:
 
-## 🎯 Objectives of the Dashboard
-
-The dashboard was developed to support insurance operations teams in:
-
-- **Monitoring the backlog** of pending assignments over the last nine weeks  
-- **Analyzing open and closed cases** by team and by employee  
-- **Tracking workload trends and operational performance**  
-- **Identifying bottlenecks** and possible areas for improvement  
-- **Navigating efficiently** through pages thanks to custom-designed buttons  
-- **Understanding dashboard metrics** through a dedicated on-page **Information Panel**  
-
-It is both a functional operational tool and an example of clean, professional BI design.
+- Process monitoring
+- Workload distribution
+- Resource allocation
+- SLA and operational performance
+- Business rules implementation
+- KPI design
+- Operational dashboards
+- Decision support systems
 
 ---
 
-## 🏠 Home Page
+## Projects
 
-The Home Page introduces the case study and lets the user access the two main areas of the report through intuitive navigation buttons.
-
-![Home](photos/homepage.png)
-
----
-
-## 📌 Backlog Monitoring (Last 9 Weeks)
-
-The first section focuses on the **weekly backlog trend**, showing how many assignments remained pending at the end of each week, categorized by delay range.
-
-![Backlog](photos/page1.png)
-
-### Key insights include:
-- Total backlog per week  
-- Aging categories (0–7, 8–15, 15–30, 31–60, >60 days)  
-- Trend line highlighting backlog evolution  
-- Percentage-based breakdown table  
-- Filters by team, type, and assigned employee  
+| # | Project | Description |
+|---|---------|-------------|
+| 01 | Insurance Case Management Dashboard | Operational dashboard for monitoring insurance assignments, backlog, workload distribution and operational KPIs. |
+| 02 | Business Rules Engine *(coming soon)* | Rule-based classification engine supporting operational workflows and process automation. |
 
 ---
 
-## 👥 Team & Employee Details
+## Tools
 
-The second section provides a detailed view of **active and completed assignments**, allowing users to analyze workloads at both team and individual level.
-
-![Details](photos/page2.png)
-
-### Features:
-- Assignments per team and per employee  
-- Drill-down enabled bar charts  
-- Global filters: date range, team, type, assigned user, status  
-- Detailed table with assignment metadata (start date, end date, type, team, status)  
+- Power BI
+- SQL
+- Excel
+- DAX
+- Power Query
 
 ---
 
-## 🧭 Interaction & UX Features
+## Purpose
 
-The dashboard includes several improvements to ensure smooth navigation and clarity:
+The goal of this repository is to showcase practical Business Operations Analytics projects that combine technical implementation with business understanding, focusing on actionable insights rather than purely technical reporting.
 
-### 🔹 Custom Navigation Buttons  
-Enable fast movement between pages without using the default Power BI interface.
+Each project includes:
 
-### 🔹 Information Panel (Info Button)  
-A dedicated **info button** opens an overlay panel that dims the dashboard and shows contextual explanations.  
-This helps the user understand metrics, filters, and visualizations without leaving the page.
+- Business context
+- Objectives
+- Dataset description
+- Dashboard or analytical solution
+- Key insights
+- Business impact
 
-![Info Panel](photos/infopanel.png)
+---
+
+👤 **Antonio Pennacchia**
+
+Data Analyst | Decision Support | Customer Analytics
+
+📧 antoniopennacchia1996@gmail.com
+
+🔗 https://www.linkedin.com/in/antonio-pennacchia-918609116/
