@@ -26,6 +26,8 @@ Each assignment follows three operational milestones.
 | **Completed Assessments** | Technical inspections completed by adjusters. |
 | **Closed Claims** | Claims formally closed after administrative processing. |
 
+These three operational events allow managers to distinguish between incoming workload, completed technical activities and fully processed claims.
+
 ---
 
 ## Key Features
@@ -34,14 +36,22 @@ Each assignment follows three operational milestones.
 - Team filtering
 - Quarter and Month filtering
 - Total Volume / Daily Average toggle
-- Interactive information panel
+- Interactive dashboard documentation
 - Monthly operational trend analysis
+
+---
+
+## Daily Average View
+
+The **Display Volumes By** selector allows users to switch between **Total Volume** and **Daily Average**, providing both absolute workload and normalized operational trends.
+
+![Daily Average](daily-average.png)
 
 ---
 
 ## Interactive Filtering
 
-Quarter and Month filters allow users to focus on a specific reporting period, making seasonal trends easier to identify.
+Quarter and Month filters allow users to focus on a specific reporting period, making seasonal trends easier to identify and compare operational performance over time.
 
 ![Quarter Filter](quarter-filter.png)
 
@@ -49,7 +59,7 @@ Quarter and Month filters allow users to focus on a specific reporting period, m
 
 ## Built-in Documentation
 
-The dashboard includes an integrated information panel explaining the business process, KPI definitions and report usage, allowing new users to quickly understand the solution without additional documentation.
+The dashboard includes an integrated information panel explaining the business process, KPI definitions and report usage, allowing new users to quickly understand the solution without requiring external documentation.
 
 ![Information Panel](info-panel.png)
 
@@ -57,20 +67,20 @@ The dashboard includes an integrated information panel explaining the business p
 
 ## Technical Highlights
 
-**Data Model**
+### Data Model
 
 - Star schema
 - Disconnected Calendar table
-- Reporting Year parameter
+- Dynamic Reporting Year parameter
 - Dynamic DAX measures
 - Power Query transformations
 
-**Technology Stack**
+### Technology Stack
 
-- Power BI
+- Power BI Desktop
 - Power Query
 - DAX
-- Excel
+- Microsoft Excel
 
 ---
 
@@ -78,15 +88,19 @@ The dashboard includes an integrated information panel explaining the business p
 
 The dataset is entirely fictional and was created exclusively for portfolio purposes.
 
-Although simulated, it reproduces a realistic insurance claims operational workflow, including seasonal workload peaks, assessment delays and backlog recovery.
+Although simulated, it reproduces a realistic insurance claims operational workflow, including seasonal workload peaks, temporary assessment delays and backlog recovery.
 
 ---
 
 ## Repository Contents
 
-- Insurance Claims Volume Monitoring.pbix
-- insurance_claims_volume_monitoring.xlsx
-- README.md
+- `Insurance Claims Volume Monitoring.pbix`
+- `insurance_claims_volume_monitoring.xlsx`
+- `overview.png`
+- `daily-average.png`
+- `quarter-filter.png`
+- `info-panel.png`
+- `README.md`
 
 ---
 
