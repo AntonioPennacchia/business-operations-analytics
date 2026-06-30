@@ -1,34 +1,18 @@
-
 # 📊 Insurance Claims Volume Monitoring
 
 Business Intelligence dashboard designed to monitor operational volumes across the insurance claims lifecycle.
 
----
-
-## Dashboard Overview
-
-
-> `overview.png`
-
-This dashboard provides a centralized view of operational workload by monitoring three key stages of the insurance claims lifecycle.
-
-Managers can quickly understand:
-
-- incoming workload;
-- completed technical activities;
-- formally closed claims;
-- seasonal workload patterns;
-- operational performance by Team and reporting period.
+![Dashboard](overview.png)
 
 ---
 
-## Business Scenario
+## Business Context
 
-Insurance companies assign claims throughout the year.
+Insurance companies receive claim assignments throughout the year.
 
-Incoming workload is not constant: during peak periods, claim assignments increase significantly, causing temporary delays in assessments and administrative closures. During quieter periods, operational teams recover accumulated backlog.
+Operational workload naturally fluctuates over time. During peak periods (typically summer months), incoming assignments increase significantly, making it difficult for operational teams to keep pace with assessments and claim closures. During quieter periods, teams progressively recover the accumulated backlog.
 
-This report helps operational managers monitor these dynamics and better understand workload distribution over time.
+This dashboard was designed to monitor these operational dynamics and support workload planning.
 
 ---
 
@@ -37,45 +21,43 @@ This report helps operational managers monitor these dynamics and better underst
 Each assignment follows three operational milestones.
 
 | Metric | Description |
-|---------|-------------|
-| **Opened Claims** | New claim assignments received. |
+|--------|-------------|
+| **Opened Claims** | New claim assignments received from insurance companies. |
 | **Completed Assessments** | Technical inspections completed by adjusters. |
-| **Closed Claims** | Claims formally closed after administrative activities. |
+| **Closed Claims** | Claims formally closed after administrative processing. |
 
 ---
 
-## Dashboard Features
+## Key Features
 
-- Dynamic Reporting Year selection
+- Dynamic Reporting Year parameter
 - Team filtering
 - Quarter and Month filtering
 - Total Volume / Daily Average toggle
-- Interactive dashboard documentation
+- Interactive information panel
 - Monthly operational trend analysis
 
 ---
 
-## Filtering Example
+## Interactive Filtering
 
+Quarter and Month filters allow users to focus on a specific reporting period, making seasonal trends easier to identify.
 
-> `quarter-filter.png`
-
-Quarter and Month filters allow users to focus the analysis on a specific reporting period, making seasonal trends easier to identify.
+![Quarter Filter](quarter-filter.png)
 
 ---
 
-## Dashboard Information
+## Built-in Documentation
 
+The dashboard includes an integrated information panel explaining the business process, KPI definitions and report usage, allowing new users to quickly understand the solution without additional documentation.
 
-> `/info-panel.png`
-
-The dashboard includes an integrated information panel describing the business process, KPI definitions and report usage, allowing new users to quickly understand the solution without external documentation.
+![Information Panel](info-panel.png)
 
 ---
 
 ## Technical Highlights
 
-### Data Model
+**Data Model**
 
 - Star schema
 - Disconnected Calendar table
@@ -83,7 +65,7 @@ The dashboard includes an integrated information panel describing the business p
 - Dynamic DAX measures
 - Power Query transformations
 
-### Tools
+**Technology Stack**
 
 - Power BI
 - Power Query
@@ -100,29 +82,16 @@ Although simulated, it reproduces a realistic insurance claims operational workf
 
 ---
 
-## Repository Structure
+## Repository Contents
 
-```text
-Insurance Claims Volume Monitoring
-│
-├── Dataset
-│   └── insurance_claims_volume_monitoring.xlsx
-│
-├── Images
-│   ├── overview.png
-│   ├── quarter-filter.png
-│   └── info-panel.png
-│
-├── Power BI
-│   └── Insurance Claims Volume Monitoring.pbix
-│
-└── README.md
-```
+- Insurance Claims Volume Monitoring.pbix
+- insurance_claims_volume_monitoring.xlsx
+- README.md
 
 ---
 
 ## Disclaimer
 
-This project was created for educational and portfolio purposes only.
+This project was created exclusively for educational and portfolio purposes.
 
-All data is fictional and does not represent real companies, customers or insurance claims.
+All companies, agencies, teams, assignments and operational data are entirely fictional and do not represent any real organization.
