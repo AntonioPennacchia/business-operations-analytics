@@ -7,9 +7,8 @@ Business Intelligence dashboard designed to monitor operational volumes across t
 
 ## Dashboard Overview
 
-> 📷 **Insert screenshot here**
->
-> `Images/overview.png`
+
+> `overview.png`
 
 This dashboard provides a centralized view of operational workload by monitoring three key stages of the insurance claims lifecycle.
 
@@ -58,9 +57,8 @@ Each assignment follows three operational milestones.
 
 ## Filtering Example
 
-> 📷 **Insert screenshot here**
->
-> `Images/quarter-filter.png`
+
+> `quarter-filter.png`
 
 Quarter and Month filters allow users to focus the analysis on a specific reporting period, making seasonal trends easier to identify.
 
@@ -68,9 +66,8 @@ Quarter and Month filters allow users to focus the analysis on a specific report
 
 ## Dashboard Information
 
-> 📷 **Insert screenshot here**
->
-> `Images/info-panel.png`
+
+> `/info-panel.png`
 
 The dashboard includes an integrated information panel describing the business process, KPI definitions and report usage, allowing new users to quickly understand the solution without external documentation.
 
