@@ -1,74 +1,125 @@
-# 📊 Insurance Assignments Monitoring Dashboard  
-### Case Study & Interactive Reporting
+# 📊 Insurance Assignments Monitoring Dashboard
 
-This repository contains a Business Intelligence dashboard designed to monitor and analyze insurance case management activities.  
-The solution provides a clear and interactive view of backlog trends, assignment details, team performance, and workload distribution.
+Business Intelligence dashboard designed to monitor insurance claim assignments, operational workload and backlog evolution across the claims management process.
 
-The dashboard is available in both Power BI (.pbix) and Excel formats and includes interactive navigation elements and an information panel that enhances user experience.
+![Dashboard](page1.png)
 
 ---
 
-## 🎯 Objectives of the Dashboard
+## Business Context
 
-The dashboard was developed to support insurance operations teams in:
+Insurance companies continuously assign new claims to external adjusters for technical assessment.
 
-- **Monitoring the backlog** of pending assignments over the last nine weeks  
-- **Analyzing open and closed cases** by team and by employee  
-- **Tracking workload trends and operational performance**  
-- **Identifying bottlenecks** and possible areas for improvement  
-- **Navigating efficiently** through pages thanks to custom-designed buttons  
-- **Understanding dashboard metrics** through a dedicated on-page **Information Panel**  
+Operations managers need a centralized view of assignment status, workload distribution and backlog evolution to ensure claims are processed efficiently and operational bottlenecks are identified early.
 
-It is both a functional operational tool and an example of clean, professional BI design.
+This dashboard provides an interactive overview of insurance assignments, helping operational teams monitor daily activities and support workload planning.
 
 ---
 
-## 🏠 Home Page
+## Business Process
 
-The Home Page introduces the case study and lets the user access the two main areas of the report through intuitive navigation buttons.
+Each insurance assignment follows a simple operational workflow.
 
-![Home](homepage.png)
+```text
+Claim Assignment
+        ↓
+Technical Assessment
+        ↓
+Administrative Activities
+        ↓
+Claim Closure
+```
+
+Throughout this process, assignments can remain pending for different reasons, generating operational backlog that requires continuous monitoring.
 
 ---
 
-## 📌 Backlog Monitoring (Last 9 Weeks)
+## Business Questions
 
-The first section focuses on the **weekly backlog trend**, showing how many assignments remained pending at the end of each week, categorized by delay range.
+This dashboard helps answer questions such as:
+
+- How many assignments are currently pending?
+- Is backlog increasing or decreasing over time?
+- Which teams are managing the highest workload?
+- Which employees currently have the largest number of assignments?
+- Which backlog aging categories require immediate attention?
+
+---
+
+## Dashboard Features
+
+- Weekly backlog monitoring
+- Assignment analysis by Team and Employee
+- Aging distribution analysis
+- Interactive filtering
+- Custom navigation buttons
+- Built-in information panel
+
+---
+
+## Backlog Monitoring
+
+The dashboard tracks weekly backlog evolution, categorizing pending assignments by aging range to help managers identify operational pressure and prioritize activities.
 
 ![Backlog](page1.png)
 
-### Key insights include:
-- Total backlog per week  
-- Aging categories (0–7, 8–15, 15–30, 31–60, >60 days)  
-- Trend line highlighting backlog evolution  
-- Percentage-based breakdown table  
-- Filters by team, type, and assigned employee  
-
 ---
 
-## 👥 Team & Employee Details
+## Team & Employee Analysis
 
-The second section provides a detailed view of **active and completed assignments**, allowing users to analyze workloads at both team and individual level.
+Operational workload can be analyzed at both team and employee level through drill-down visualizations and interactive filters.
 
 ![Details](page2.png)
 
-### Features:
-- Assignments per team and per employee  
-- Drill-down enabled bar charts  
-- Global filters: date range, team, type, assigned user, status  
-- Detailed table with assignment metadata (start date, end date, type, team, status)  
+---
+
+## Built-in Documentation
+
+The report includes an integrated information panel explaining dashboard metrics, business logic and navigation, allowing users to quickly understand the report without additional documentation.
+
+![Information Panel](infopanel.png)
 
 ---
 
-## 🧭 Interaction & UX Features
+## Technical Highlights
 
-The dashboard includes several improvements to ensure smooth navigation and clarity:
+### Data Model
 
-### 🔹 Custom Navigation Buttons  
-Enable fast movement between pages without using the default Power BI interface.
+- Star schema
+- Power Query transformations
+- Dynamic DAX measures
+- Interactive filtering
 
-### 🔹 Information Panel (Info Button)  
-A dedicated **info button** opens an overlay panel that dims the dashboard and shows contextual explanations.  
-This helps the user understand metrics, filters, and visualizations without leaving the page.
+### Technology Stack
 
-![Info Panel](infopanel.png)
+- Power BI Desktop
+- Power Query
+- DAX
+- Microsoft Excel
+
+---
+
+## Dataset
+
+The dataset is entirely fictional and was created exclusively for portfolio purposes.
+
+Although simulated, it reproduces a realistic insurance claims operational workflow, including assignment management, backlog evolution and workload distribution.
+
+---
+
+## Repository Contents
+
+- `Insurance Assignments Monitoring Dashboard.pbix`
+- `insurance_assignments_dataset.xlsx`
+- `page1.png`
+- `page2.png`
+- `infopanel.png`
+- `README.md`
+
+---
+
+## Disclaimer
+
+This project was created exclusively for educational and portfolio purposes.
+
+All companies, assignments, teams and operational data are entirely fictional.
